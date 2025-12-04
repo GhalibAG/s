@@ -6,6 +6,7 @@ public class Main {
         cars[1] = "Toyota";
         cars[2] = "Yamaha";
         cars[3] = "Ford";
+        cars[4] = "Honda"; // Ini akan menyebabkan ArrayIndexOutOfBoundsException
         
         // Perulangan dimulai dari 0 dan berakhir di 3 (total 4 iterasi)
         // Indeks array di Java dimulai dari 0
@@ -14,3 +15,5 @@ public class Main {
         }
     }
 }
+
+//PBO NIATT
